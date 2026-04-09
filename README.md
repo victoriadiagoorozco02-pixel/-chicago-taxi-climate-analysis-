@@ -1,16 +1,16 @@
-# 🚕 Análisis de duración de viajes de taxi según condiciones climáticas
+# Análisis de duración de viajes de taxi según condiciones climáticas
 
-## 📌 Descripción del proyecto
+## Descripción del proyecto
 Este proyecto analiza cómo las condiciones climáticas afectan la duración de los viajes de taxi en la ciudad de Chicago, con el objetivo de identificar patrones relevantes que puedan impactar la operación y la experiencia del usuario.
 
 ---
 
-## 🎯 Objetivo
+## Objetivo
 Evaluar si existe una diferencia significativa en la duración de los viajes los sábados en función del clima (lluvioso vs. no lluvioso).
 
 ---
 
-## 📊 Dataset
+## Dataset
 El dataset incluye información sobre:
 - Duración de viajes
 - Condiciones climáticas
@@ -20,7 +20,7 @@ Los datos fueron preprocesados para asegurar su calidad antes del análisis.
 
 ---
 
-## 🛠 Herramientas utilizadas
+## Herramientas utilizadas
 - Python  
 - Pandas  
 - Matplotlib / Seaborn  
@@ -28,7 +28,7 @@ Los datos fueron preprocesados para asegurar su calidad antes del análisis.
 
 ---
 
-## 🔍 Proceso de análisis
+## Proceso de análisis
 
 1. Limpieza de datos:
    - Eliminación de valores nulos y duplicados
@@ -44,7 +44,7 @@ Los datos fueron preprocesados para asegurar su calidad antes del análisis.
 
 ---
 
-## 📈 Resultados e insights
+## Resultados e insights
 
 - Se encontró una diferencia estadísticamente significativa en la duración de los viajes los sábados según las condiciones climáticas.
 - En días lluviosos, los viajes duran en promedio **7.1 minutos más** (≈ 427 segundos) en comparación con días sin lluvia.
@@ -52,7 +52,7 @@ Los datos fueron preprocesados para asegurar su calidad antes del análisis.
 
 ---
 
-## 🚀 Recomendaciones
+## Recomendaciones
 
 - Implementar estrategias de **pricing dinámico** en días lluviosos.
 - Ajustar la **disponibilidad de conductores** en función de la demanda.
@@ -60,20 +60,20 @@ Los datos fueron preprocesados para asegurar su calidad antes del análisis.
 
 ---
 
-## 🧪 Conclusión
+## Conclusión
 
 Las condiciones climáticas tienen un impacto significativo en la duración de los viajes. Este hallazgo permite anticipar cambios en la operación y tomar decisiones para optimizar la eficiencia del servicio y mejorar la experiencia del usuario.
 
 ---
 
-## ⚠️ Limitaciones
+## Limitaciones
 
 - El análisis se basa en datos históricos y no considera eventos externos.
 - No se incluyeron variables como tráfico en tiempo real o eventos especiales.
 
 ---
 
-## 🔮 Próximos pasos
+## Próximos pasos
 
 - Incluir variables adicionales como ubicación geográfica y hora del día.
 - Analizar patrones de demanda en diferentes zonas.
